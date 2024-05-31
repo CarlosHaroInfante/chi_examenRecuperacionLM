@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="js.js"></script>
+</head>
+<body>
+
+	<button onclick="palabra()">Introducir palabra</button>
+
+	<p>Intentos:</p>
+	<button>Tiempo</button>
+	<p>Palabra: <p id="letra"></p></p>
+	<button onclick="adivinar()">Letra</button>
+	<p>Palabra: <p id="palabra"></p></p>
+	<br>
+	<p>Historial</p>
+	<table>
+		<tr id="historial">
+			<td>Palabra</td>
+			<td>Intentos</td>
+			<td>Tiempo</td>
+		</tr>
+		<tr>
+			<td id="resultado"></td>
+			<td id="intentos"></td>
+			<td id="fallos"></td>
+		</tr>
+	</table>
+</body>
+</html>
